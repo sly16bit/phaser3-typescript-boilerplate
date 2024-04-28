@@ -1,8 +1,6 @@
 import { Directions } from './config.ts';
 import Food from './food.ts';
 
-import WebAudioSound = Phaser.Sound.WebAudioSound;
-
 export default class Snake {
   private headPosition: Phaser.Geom.Point;
   private body: Phaser.GameObjects.Group;
@@ -35,7 +33,7 @@ export default class Snake {
     this.heading = Directions.RIGHT;
     this.direction = Directions.RIGHT;
 
-    this.deathSound = scene.sound.add('die') as WebAudioSound;
+    this.deathSound = scene.sound.add('die') as Phaser.Sound.WebAudioSound;
   }
 
   update(time: number) {
