@@ -6,7 +6,7 @@ A basic repository for starting a Phaser.js game in typescript using bun and vit
 
 The game included in this repo is the snake game example included in the Phaser 3 examples repository. All that was done here is to convert the original code in typescript and add a couple of sound effects.
 
-Here's a link to the repo : TODO
+Here's a link to the repo : https://github.com/phaserjs/examples
 
 ## Tech
 
