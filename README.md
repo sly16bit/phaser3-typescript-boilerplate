@@ -33,6 +33,12 @@ You can then run the http server by running the following : `bun run dev`
 
 You can then access the game by using the following url in your favorite browser : http://localhost:5173
 
+### Commands to build
+
+You can build the web app using the `bun run build` command. Resulting files are saved in the `dist` folder.
+
+You can build the electron app using the `bun run build-native` command. Resulting files are saved in the `release` folder.
+
 ## Phaser
 
 Phaser is a javascript you can use to make games that would run in any browser. Look here for more info : https://phaser.io/
